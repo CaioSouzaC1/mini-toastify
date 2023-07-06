@@ -1,0 +1,81 @@
+#toastify div {
+  position: fixed;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  padding: 0.8em 1.2em;
+  border: 1px solid;
+  border-radius: 4px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+}
+#toastify div i {
+  margin-left: 1em;
+}
+
+#toastify div:hover {
+  cursor: pointer;
+  filter: brightness(1.1);
+}
+
+#toastify div.info {
+  background-color: #2675e8;
+  border-color: #172eb5;
+}
+
+#toastify div.success {
+  background-color: #41b51d;
+  border-color: #188422;
+}
+
+#toastify div.error {
+  background-color: #e82626;
+  border-color: #b51717;
+}
+
+#toastify div.warning {
+  background-color: #e8aa26;
+  border-color: #c68f24;
+}
+
+#toastify div.top-right {
+  top: 2em;
+  right: 2em;
+}
+
+#toastify div.non-top-right {
+  top: 2em;
+  right: -20em;
+}
+
+#toastify div.top-left {
+  top: 2em;
+  left: 2em;
+}
+
+#toastify div.non-top-left {
+  top: 2em;
+  left: -20em;
+}
+
+#toastify div.bottom-right {
+  bottom: 2em;
+  right: 2em;
+}
+
+#toastify div.non-bottom-right {
+  bottom: 2em;
+  right: -20em;
+}
+
+#toastify div.bottom-left {
+  bottom: 2em;
+  left: 2em;
+}
+
+#toastify div.non-bottom-left {
+  bottom: 2em;
+  left: -20em;
+}
